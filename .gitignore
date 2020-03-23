@@ -11,3 +11,10 @@ reading/
 
 ## Ignore dataset for HW3
 3_dependency_parsing/data/
+
+## Ignore dataset for project
+project/datasets/
+project/gold_labels/
+project/test/
+project/tools/data/
+project/tools/src/__pycache__
