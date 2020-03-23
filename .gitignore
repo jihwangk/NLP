@@ -6,4 +6,6 @@
 reading/
 
 ## Ignore dataset for HW2
+2_word_embeddings/intrinsic-test.csv
+2_word_embeddings/unlabeled-data.txt
 
