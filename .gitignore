@@ -1,0 +1,6 @@
+### Ignore submission files
+*.pdf
+*.zip
+
+## Ignore reading assignment folder
+reading/
