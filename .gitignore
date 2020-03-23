@@ -9,3 +9,5 @@ reading/
 2_word_embeddings/intrinsic-test.csv
 2_word_embeddings/unlabeled-data.txt
 
+## Ignore dataset for HW3
+3_dependency_parsing/data/
