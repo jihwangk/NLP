@@ -5,12 +5,16 @@
 ## Ignore reading assignment folder
 reading/
 
+## Ignore dataset for HW1
+
 ## Ignore dataset for HW2
 2_word_embeddings/intrinsic-test.csv
 2_word_embeddings/unlabeled-data.txt
 
 ## Ignore dataset for HW3
 3_dependency_parsing/data/
+
+## Ignore dataset for HW4
 
 ## Ignore dataset for project
 project/datasets/
