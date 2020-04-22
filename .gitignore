@@ -24,9 +24,7 @@ reading/
 ## Ignore dataset for project
 project/datasets/
 project/gold_labels/
-project/test/
-project/tools/data/
-project/tools/src/__pycache__
+project/tools/src/__pycache__/
 
 ## Ignore external libraries
 transformers/
