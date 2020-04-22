@@ -16,9 +16,18 @@ reading/
 
 ## Ignore dataset for HW4
 
+## Ignore dataset for HW5
+5_transformers/data/
+5_transformers/output/
+5_transformers/runs/
+
 ## Ignore dataset for project
 project/datasets/
 project/gold_labels/
 project/test/
 project/tools/data/
 project/tools/src/__pycache__
+
+## Ignore external libraries
+transformers/
+env/

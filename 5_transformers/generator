@@ -1,0 +1,20 @@
+export TRAIN_FILE=/home/jihwangk/Desktop/UMich/SI_630/5_transformers/data/generation/train.txt
+export TEST_FILE=/home/jihwangk/Desktop/UMich/SI_630/5_transformers/data/generation/dev.txt
+
+python3 /home/jihwangk/Desktop/UMich/SI_630/transformers/examples/run_language_modeling.py \
+    --output_dir=output \
+    --model_type=gpt2 \
+    --model_name_or_path=gpt2 \
+    --do_train \
+    --train_data_file=$TRAIN_FILE \
+    --do_eval \
+    --eval_data_file=$TEST_FILE \
+    --block_size=256 \
+    --learning_rate 1.5e-4 \
+    --weight_decay 1e-8 \
+    --adam_epsilon 1e-8 \
+    --num_train_epochs 10 \
+    --gradient_accumulation_steps 5 \
+    --evaluate_during_training \
+    --overwrite_output_dir \
+    --overwrite_cache
