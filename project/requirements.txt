@@ -1,8 +1,0 @@
-numpy
-matplotlib
-pandas
-torch
-pytorch-transformers
-scikit-learn
-spacy==2.0.18
-tqdm

@@ -22,8 +22,6 @@ reading/
 5_transformers/runs/
 
 ## Ignore dataset for project
-project/datasets/
-project/gold_labels/
 project/tools/src/__pycache__/
 
 ## Ignore external libraries
